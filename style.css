@@ -1,0 +1,161 @@
+body {
+    background-image: url("bg-30.svg");
+    background-position: -75px -140px;
+
+    font-family: Suisse, sans-serif;
+}
+
+div.message {
+    float: left;
+    background-color: rgb(219, 234, 254);
+
+    border-style: solid;
+    border-color: rgb(37, 99, 235);
+    border-width: 4px;
+    border-radius: 12px;
+
+    padding: 24px;
+
+    margin: 32px;
+    
+    width: 320px;
+
+    transform: matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0);
+}
+
+div#userstats {
+    float: left;
+    background-image: url(https://www.transparenttextures.com/patterns/cardboard.png);
+    background-color: white;
+
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 4px;
+    border-radius: 12px;
+
+    padding: 24px;
+
+    margin: 32px;
+    
+    width: 320px;
+
+    transform: matrix(0.999848, -0.0174524, 0.0174524, 0.999848, 0, 0);
+}
+
+div.solved {
+    float: left;
+    background-color: white;
+
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 4px;
+    border-radius: 12px;
+
+    width: fit-content;
+
+    margin: 32px;
+
+    text-align: center;
+}
+
+.solved table {
+    border-collapse: collapse;
+}
+
+.solved td, .solved th {
+    border: 1px solid;
+    padding: 6px;
+    text-align: center;
+}
+
+/*.solved td:last-child, .solved th:last-child {
+    background: linear-gradient(rgb(255,0,0) 0%, rgb(255,154,0) 10%, rgb(208,222,33) 20%, rgb(79,220,74) 30%, rgb(63,218,216) 40%, rgb(47,201,226) 50%, rgb(28,127,238) 60%, rgb(95,21,242) 70%, rgb(186,12,248) 80%, rgb(251,7,217) 90%, rgb(255,0,0) 100%) 0 0/100% 200%;
+    animation: rainbow 3s linear infinite;
+}
+
+@keyframes rainbow {
+    from {background-position: 0 0}
+    to {background-position:0 -200%}
+}*/
+
+div.clue-leaderboard-header {
+    clear: both;
+    margin: 16px;
+}
+
+div.clue-leaderboard {
+    float: left;
+
+    background-color: rgb(255,255,255);
+    
+    border-style: solid;
+    border-radius: 12px;
+
+    padding: 8px;
+
+    margin: 16px;
+
+    text-align: center;
+}
+
+.mission-header h3 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.mission-header img {
+    height: 128px;
+    margin: 12px;
+}
+
+.clue-leaderboard .avatar img {
+    width: 48px;
+}
+.clue-leaderboard tbody tr:first-child .avatar img {
+    width: 64px;
+}
+
+.clue-leaderboard td {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.clue-leaderboard .stat {
+    display: grid;
+}
+
+.clue-leaderboard .avatar {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+
+    text-align: center;
+}
+
+.clue-leaderboard tbody tr:first-child .avatar {
+
+}
+
+.clue-leaderboard .name {
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clue-leaderboard tbody tr:first-child .name {
+    font-weight: bold;
+}
+
+.clue-leaderboard .time {
+    grid-column: 2 / 2;
+    grid-row: 1 / 2;
+
+    text-align: right;
+    margin: auto;
+}
+
+.clue-leaderboard tbody tr:first-child .time {
+    display: none;
+}
